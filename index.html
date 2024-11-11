@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav">
+        <nav>
+            <li><a class="active" href="#personal-info">Home</a></li>
+            <li><a class="active" href="#dream">Big Dream</a></li>
+            <li><a class="active" href="#hobbies">Hobbies</a></li>
+            <li><a class="active" href="#favorite-links">Favorite Links</a></li>
+            <li><a class="active" href="#quote">Favorite Quotes</a></li>
+            <li><a class="active" href="#table">Table of Favorites</a></li>
+        </nav> 
+    </div>
+<section class="top-banner" id="personal-info">
+    <div class="half-width">
+        <h1>Welcome To</h1>
+    
+        <h1><span class="name-highlight">J.I. Rafid's</span> Portfolio</h1>
+    
+        <h3>Student || Web Developer</h3>
+        <p>Welcome to my Portfolio! I am a passionate Computer Science and Engineering student at BRAC University, currently in the learning phase of web development. While I may not have hands-on experience yet, I am dedicated to building a strong foundation in modern web technologies and best practices. With a passion for continuous learning and problem-solving, I am eager to translate my knowledge into impactful projects and contribute effectively to dynamic development teams in the near future.
+        </p>
+
+        <a class= "link-button" target="_" href="https://www.facebook.com/jubayerishfaq.rafid.1/">Find Me</a>
+    </div>
+    <div class="half-width">
+        <img id="img1" src="images/profile1.jpg" alt="">
+    </div>
+</section>
+<section class="dream" id="dream">
+    <div class="half-width"> 
+        <img src="images/profile2.jpg" alt="">
+    </div>
+    <div class="half-width">
+        <h2>Big Dream</h2>
+        <h3>Bocome a fullstack web developer.</h3>
+        <p>My dream is to become an efficient full-stack web developer, with a primary focus on the MERN stack (MongoDB, Express.js, React, and Node.js) to build dynamic and scalable web applications. I am also passionate about expanding my expertise in PHP and Laravel, which I believe will deepen my understanding of backend development and broaden my versatility as a developer.</p>
+        <a class= "link-button" target="_" href="https://github.com/JIRafid">Github</a>
+    </div>
+</section>
+<section class="portion1">
+    <div class="half-width border" id="hobbies">
+        <h2>Hobbies</h2>
+        <p>I am passionate about a variety of hobbies and interests that inspire creativity and exploration:</p>
+        <ul>
+            <li>Exploring new technologies</li>
+            <li>Watching films and series</li>
+            <li>Embarking on adventures</li>
+            <li>Traveling to new places</li>
+            <li>Immersing myself in nature</li>
+        </ul>
+    </div>
+    <div class="half-width border"  id="favorite-links">
+        <h2>Favorite Links</h2>
+        <ul>
+            <li><a href="https://www.bracu.ac.bd/" target="_blank">BRAC University</a></li>
+            <li><a href="https://piazza.com/bracu.ac.bd/fall2024/cse391/" target="_blank">CSE 391 Piazza</a></li>
+            <li><a href="https://www.github.com/" target="_blank">GitHub</a></li>
+            <li><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></li>
+            <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network</a></li>
+        </ul>
+    </div>
+    </section>
+    <section class="portion2">
+        <div  class="half-width border" id="quote">
+            <h2>Favorite Quotes</h2>
+            <p><em>"If you're good at something, never do it for free."
+                — The Joker</em></p>
+            <p><em>"The only limit to our realization of tomorrow is our doubts of today."
+                — Franklin D. Roosevelt</em></p>
+            <p><em>"The beautiful thing about learning is that no one can take it away from you."
+                — B.B. King</em></p>
+        </div>
+        <div class="half-width border" id="table">
+            <h2>Table of Favorites</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Book</td>
+                <td>Tin Goyenda series</td>
+            </tr>
+            <tr>
+                <td>Music</td>
+                <td>Indie Folk Rock</td>
+            </tr>
+            <tr>
+                <td>Food</td>
+                <td>Mughal Cuisine</td>
+            </tr>
+        </table>
+        </div>
+    </section>
+</section>
+<footer>
+    <p id="date"></p>
+    <p id="homepage"></p>
+    <script>
+        document.getElementById("homepage").innerText = "Page location:" + window.location.pathname;
+        document.getElementById("date").innerText = "Last modified: " + document.lastModified;
+    </script>
+</footer>
+</body>
+</html>
