@@ -1,15 +1,25 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 170px;
+}
 body{
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     font-family: "Poppins", sans-serif;
     margin: 0;
 }
+#nav{
+    position: sticky;
+    top: 0;
+}
 nav {
+    position: sticky;
+    top: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     text-align: center;
-    background-color: #ccff66; /
+    background-color: gray; /
 }
 
 nav li {
@@ -19,11 +29,11 @@ nav li {
 
 nav li a {
     display: inline; 
-    padding: 8px;
+    padding: 4px;
     background-color: transparent; 
     color: black; 
     font-weight: normal; 
-    font-size: 36px; 
+    font-size: 25px; 
     text-decoration: none; 
 }
 
@@ -92,19 +102,24 @@ section{
     background-position: right;
     background-color: azure;
 }
-#hobbies{
+#hobbies, #p1{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightSalmon, tomato);
     border-image-slice: 1;
 }
-#favorite-links{
+#favorite-links, #p2{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
-#quote{
+#quote, #p3{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, rgb(122, 255, 202), rgb(105, 255, 71));
+    border-image-slice: 1;
+}
+#table{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(236, 245, 117), rgb(162, 175, 46));
     border-image-slice: 1;
 }
 table, th, td {
@@ -112,10 +127,39 @@ table, th, td {
     padding: 10px;
     text-align: left;
 }
+
 footer {
     text-align: center;
-    padding: 1em;
-    font-size: 0.9em;
-    color: #555;
+    padding: 20px;
+    background-color: #0f0f0f;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+#learning{
+    text-align: center;
 }
 
+.box{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 10px;
+    height: 125%;
+}
+.box2{
+    margin-top: 80px;
+    width: 87%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 10px;
+    height: 50%;
+}
+  
