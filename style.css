@@ -163,39 +163,26 @@ footer {
     height: 50%;
 }
 
-
-
 @media screen and (max-width: 1024px) {
-    .half-width, .box, .box2 {
-        width: 80%;
-        margin: 0 auto;
+    .half-width {
+        width: 90%;
+        margin: 5% auto;
         float: none;
-    }
-
-    h1 {
-        font-size: 40px;
-    }
-
-    h2 {
-        font-size: 30px;
     }
 
     nav li {
         display: block;
-        margin: 10px 0;
+        margin: 5px 0;
     }
 
-    #nav {
+    nav {
         text-align: left;
+        padding: 10px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .half-width, .box, .box2 {
-        width: 90%;
-    }
-
-    nav li {
+    nav li a {
         font-size: 20px;
     }
 
@@ -226,23 +213,18 @@ footer {
         font-size: 20px;
     }
 
-    p {
-        font-size: 0.9rem;
-    }
-    
-    .link-button {
-        font-size: 0.8rem;
-        padding: 6px 12px;
-    }
-
     .half-width, .box, .box2 {
         width: 100%;
         padding: 0 5%;
+    }
+
+    .link-button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
     }
 
     #nav {
         text-align: center;
     }
 }
-
   
